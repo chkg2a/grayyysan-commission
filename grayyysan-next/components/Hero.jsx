@@ -3,7 +3,7 @@ import Image from "next/image";
 const Hero = () => {
   return (
     <div
-      className="relative w-screen h-[85vh] overflow-hidden"
+      className="relative bg-fixed bg-center w-screen h-[85vh] overflow-hidden"
       style={{
         backgroundImage: "linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/IMG_1270.jpg)",
         backgroundRepeat: "no-repeat",
@@ -17,9 +17,9 @@ const Hero = () => {
           Explore the captivating world of Grayyysann's art and be amazed by her
           creative vision and attention to detail.
         </p>
-        <div className="mt-10">
+        <div className="mt-10 flex flex-wrap">
           <button className="bg-black text-white p-2 w-32 border-2 border-black">Commission</button>
-          <button className="ml-5 outline-white border-2 w-32 border-white p-2">Explore</button>
+          <button className="md:ml-5 outline-white border-2 w-32 border-white p-2">Explore</button>
         </div>
       </div>
     </div>
