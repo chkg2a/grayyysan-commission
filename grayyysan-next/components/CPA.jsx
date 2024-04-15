@@ -21,6 +21,7 @@ const CPA = () => {
             src="/IMG_1985.jpg"
             height={600}
             width={600}
+            alt="genshin character"
             className="w-full h-full object-cover transition-all hover:scale-105"
           />
         </div>
