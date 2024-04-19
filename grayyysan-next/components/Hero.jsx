@@ -18,8 +18,8 @@ const Hero = () => {
           creative vision and attention to detail.
         </p>
         <div className="mt-10 flex flex-wrap">
-          <button className="bg-black text-white p-2 w-32 border-2 border-black">Commission</button>
-          <button className="md:ml-5 outline-white border-2 w-32 border-white p-2">Explore</button>
+          <a href="#commission" className="text-center transition-all hover:scale-105 bg-black text-white p-2 w-32 border-2 border-black">Commission</a>
+          <a href="#gallery" className="md:ml-5 text-center outline-white border-2 w-32 transition-all hover:scale-105 border-white p-2">Explore</a>
         </div>
       </div>
     </div>
