@@ -45,19 +45,19 @@ export const FAQs = [
 ]
 
 export const CHAT_1 = [
-  {username:"ChK",text:"I want you to draw Renne Bright for me.",chatStart:true, avatar:"/chk-avatar.jpeg", seen:"12:45"},
+  {username:"ChK",text:"I want you to draw Renne Bright for me.",chatStart:true, avatar:"/chk-avatar.webp", seen:"12:45"},
   {username:"Grayyysan",text:"OK Sure",chatStart:false, avatar:"/grayyysan-avatar.webp", seen:"12:45"}
 ]
 
 export const CHAT_2 = [
   {username:"Grayyysan",text:"Which style do you want to go for?",chatStart:false, avatar:"/grayyysan-avatar.webp", seen:"12:45"},
-  {username:"ChK",text:"WOW! YOO All of them are beautiful",chatStart:true, avatar:"/chk-avatar.jpeg", seen:"12:45"},
-  {username:"ChK",text:"This one stands out to me. Can you go with this one?",chatStart:true, avatar:"/chk-avatar.jpeg", seen:"12:45"},
+  {username:"ChK",text:"WOW! YOO All of them are beautiful",chatStart:true, avatar:"/chk-avatar.webp", seen:"12:45"},
+  {username:"ChK",text:"This one stands out to me. Can you go with this one?",chatStart:true, avatar:"/chk-avatar.webp", seen:"12:45"},
   {username:"Grayyysan",text:"Sure",chatStart:false, avatar:"/grayyysan-avatar.webp", seen:"12:45"},
 ]
 
 export const CHAT_3 = [
   {username:"Grayyysan",text:"It's Finally done. Do you wanna add any final touches?",chatStart:false, avatar:"/grayyysan-avatar.webp", seen:"12:45"},
-  {username:"ChK",text:"AMAZING! I Love it as is",chatStart:true, avatar:"/chk-avatar.jpeg", seen:"12:45"},
-  {username:"ChK",text:"Thank you!",chatStart:true, avatar:"/chk-avatar.jpeg", seen:"12:45"},
+  {username:"ChK",text:"AMAZING! I Love it as is",chatStart:true, avatar:"/chk-avatar.webp", seen:"12:45"},
+  {username:"ChK",text:"Thank you!",chatStart:true, avatar:"/chk-avatar.webp", seen:"12:45"},
 ]
