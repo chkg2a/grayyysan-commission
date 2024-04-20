@@ -1,3 +1,13 @@
+
+export const ABILITIES = [
+  {head: "Speed", body: "Each line and color is meticulously placed, resulting in artwork that is both captivating and polished.", pos:1},
+  {head: "Time", body: "Reliability is another facet of Grayyysan's artistic prowess.  You can count on her to deliver exceptional work, on time, every time", pos:2},
+  {head: "Creativitiy", body: "Her creativity knows no bounds, bringing fresh ideas and concepts to life in her work.", pos:3},
+  {head: "Flow state Master", body: "Grayyysan has a remarkable ability to enter a state of focused creativity. When in this zone, her ideas translate seamlessly onto the canvas, resulting in works that feel effortless and dynamic", pos:4},
+  {head: "Communication", body: "She understands your vision and translates it perfectly into the final piece.", pos:5},
+  {head: "Versatility", body: "She can comfortably adapt her style to fit any project, genre, or theme.", pos:6},
+]
+
 export const NAV_LINKS = [
   {href:'#gallery', key: 'gallery', label:'Gallery'},
   {href:'#commission', key: 'commission', label:'Commission'},
@@ -26,6 +36,7 @@ export const NAV_LINKS = [
   {src:"/IMG_6739.jpg", classes:"w-full object-center", height:"1920", width:'1080',alt:'showcase'},
   {src:"/IMG_2097.jpg", classes:"object-center", height:"1920", width:'1080',alt:'hehe'},
 ]
+
 
 export const FAQs = [
   {heading: "How to buy art?", body: "To buy art simply browser our collection, select the artwork you love, and proceed to checkout. We offer secure payment options and worldwide shipping."},
