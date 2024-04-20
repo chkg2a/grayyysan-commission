@@ -1,11 +1,12 @@
 import Image from "next/image";
+import { CARD_IMAGE } from "@/constants";
 
 const CPA = () => {
   return (
-    <div className="p-10 bg-white h-screen">
-      <div className="flex h-full flex-wrap md:justify-evenly md:items-center">
+    <div className="p-10 bg-black w-full h-screen">
+      <div className="flex h-full flex-wrap md:p-20 lg:flex-nowrap md:justify-between md:items-center">
         <div>
-          <h1 className="w-full text-black font-semibold lg:w-[45rem] text-4xl lg:text-6xl">
+          <h1 className="w-full text-white font-semibold lg:w-[45rem] text-4xl lg:text-6xl">
             Introducing Grayyysan: An Artist with a Passion for Creativity and
             Expression
           </h1>
@@ -16,18 +17,21 @@ const CPA = () => {
             to craete unique and captivating pieces that resonatne with viewers.
           </p>
         </div>
-        <div className='relative'>
-          <div className="bg-gray-50 rotate-3 shadow-2xl w-full md:w-[500px] md:h-[500px] overflow-hidden rounded-xl">
-          </div>
-          <div className="absolute top-0 transition-all -translate-x-2 -rotate-3 hover:-rotate-6 shadow-2xl w-full md:w-[500px] md:h-[500px] overflow-hidden rounded-xl">
-            <Image
-              src="/IMG_1985.jpg"
-              height={500}
-              width={500}
-              alt="genshin character"
-              loading="lazy"
-              className="w-full h-full object-cover transition-all hover:scale-105"
-            />
+        <div className="relative md:mr-52">
+          <div className="card-group">
+            {CARD_IMAGE.map((item, i) => (
+              <>
+                <div className={` ${item.divClass}`}>
+                  <Image
+                    src={item.src}
+                    height={item.height}
+                    width={item.width}
+                    alt={item.alt}
+                    className={`w-full rounded-xl h-full object-cover transition-all ${item.classes}`}
+                  />
+                </div>
+              </>
+            ))}
           </div>
         </div>
       </div>

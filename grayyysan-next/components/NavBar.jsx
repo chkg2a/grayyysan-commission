@@ -4,7 +4,7 @@ import Button from "./smallComponents/Button";
 
 const NavBar = () => {
   return (
-    <nav className="px-4 py-3 bg-white text-black flex justify-between">
+    <nav className="px-4 py-3 bg-transparent text-white flex justify-between">
       <Link href="/" className="text-2xl">GrayyySannn</Link>
       <ul className="hidden h-full gap-12 md:flex">
         {NAV_LINKS.map((link) => (
@@ -16,7 +16,6 @@ const NavBar = () => {
             {link.label}
           </Link>
         ))}
-        <Button title="Login"/>
       </ul>
     </nav>
   );

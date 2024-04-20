@@ -6,12 +6,14 @@ import AbilityShowcase from "@/components/AbilityShowcase"
 import FAQ from "@/components/FAQ"
 import Contact from "@/components/Contact"
 import Footer from "@/components/Footer"
+import ParallaxBG from "@/components/ParallaxBG"
 
 export default function Home() {
   return (
     <>
       <Hero />
       <CPA />
+      <ParallaxBG/>
       <AbilityShowcase/>
       <Gallery />
       <Commissions/>

@@ -3,7 +3,9 @@ import React from 'react'
 const AbilityShowcase = () => {
   return (
     <div>
-      <div></div>
+      <div>
+        
+      </div>
     </div>
   )
 }

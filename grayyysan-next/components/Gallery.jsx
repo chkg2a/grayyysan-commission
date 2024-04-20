@@ -3,9 +3,9 @@ import { IMG_GALLERY } from "@/constants";
 
 const Gallery = () => {
   return (
-    <div id="gallery" className="w-full h-full flex flex-col items-center p-10 bg-white">
-      <div className="flex flex-col items-center text-black gap-2 p-10">
-        <h1 className="text-black font-semibold text-4xl lg:text-6xl">
+    <div id="gallery" className="w-full h-full flex flex-col items-center p-52 bg-black">
+      <div className="flex flex-col items-center text-white gap-2 pb-32">
+        <h1 className="font-semibold text-4xl lg:text-6xl">
           Image Showcase
         </h1>
         <p className="text-gray-500">
