@@ -4,7 +4,7 @@ import { CARD_IMAGE } from "@/constants";
 const CPA = () => {
   return (
     <div className="p-10 bg-black w-full h-screen">
-      <div className="flex h-full flex-wrap md:p-20 lg:flex-nowrap md:justify-between md:items-center">
+      <div className="flex h-full flex-wrap lg:p-20 lg:flex-nowrap justify-center lg:justify-between items-center">
         <div>
           <h1 className="w-full text-white font-semibold lg:w-[45rem] text-4xl lg:text-6xl">
             Introducing Grayyysan: An Artist with a Passion for Creativity and
@@ -17,9 +17,9 @@ const CPA = () => {
             to craete unique and captivating pieces that resonatne with viewers.
           </p>
         </div>
-        <div className="relative md:mr-52">
+        <div className="relative mt-20 lg:mr-52">
           <div className="card-group">
-            {CARD_IMAGE.map((item, i) => (
+            {CARD_IMAGE.map((item) => (
               <>
                 <div className={` ${item.divClass}`}>
                   <Image

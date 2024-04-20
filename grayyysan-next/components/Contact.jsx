@@ -6,11 +6,11 @@ const Contact = () => {
   return (
     <div id="contact" className="bg-black w-full h-full flex flex-col items-center p-52">
       <div className="flex flex-col items-center text-white gap-2 pb-32">
-        <h1 className="font-semibold text-4xl lg:text-6xl">
+        <h1 className="font-semibold text-4xl lg:text-6xl w-full text-center min-w-[400px]">
           REACH OUT TO ME
         </h1>
       </div>
-      <div className="w-5/6 flex items-center justify-evenly">
+      <div className="w-5/6  min-w-[400px] flex flex-col gap-8 lg:flex-row items-center justify-evenly">
         <div className="w-1/3 transition-all hover:scale-105">
           <a href="https://instagram.com/grayyysan" className="flex flex-col items-center">
             <span className="text-7xl">
