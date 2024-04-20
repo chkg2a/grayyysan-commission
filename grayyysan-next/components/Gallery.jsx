@@ -13,7 +13,7 @@ const Gallery = () => {
           pieces
         </p>
       </div>
-      <div className="w-full min-w-[400px] h-full lg:h-1/2 lg:w-5/6 lg:grid lg:grid-cols-3">
+      <div className="w-full min-w-[300px] h-full lg:h-1/2 lg:w-5/6 lg:grid lg:grid-cols-3">
         {IMG_GALLERY.map((item, i) => (
           <div
             key={i}

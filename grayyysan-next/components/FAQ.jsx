@@ -8,7 +8,7 @@ const FAQ = () => {
           FAQs
         </h1>
       </div>
-      <div className="w-full lg:w-4/6  min-w-[400px]">
+      <div className="w-full lg:w-4/6  min-w-[300px]">
         {FAQs.map((item) => (
           <div className="collapse collapse-arrow text-white">
             <input type="radio" name="my-accordion-2" defaultChecked />

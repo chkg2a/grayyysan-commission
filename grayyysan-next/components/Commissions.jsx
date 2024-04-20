@@ -8,9 +8,9 @@ const Commissions = () => {
   return (
     <div
       id="commission"
-      className="p-52 bg-black w-full min-w-[400px] h-full flex-col flex items-center"
+      className="p-52 bg-black w-full min-w-[300px] h-full flex-col flex items-center"
     >
-      <div className="flex flex-col  min-w-[400px] items-center text-white gap-2 pb-32">
+      <div className="flex flex-col  min-w-[300px] items-center text-white gap-2 pb-32">
         <h1 className="text-white font-semibold text-4xl w-[300px] lg:w-full lg:text-center lg:text-6xl">
           Commissions
         </h1>
@@ -18,7 +18,7 @@ const Commissions = () => {
           Explore Grayyysan's beautifully drawn commissions
         </p>
       </div>
-      <div className="flex w-5/6 h-full mt-20  min-w-[400px] flex-1 lg:justify-between">
+      <div className="flex w-5/6 h-full mt-20  min-w-[300px] flex-1 lg:justify-between">
         <div className="relative flex gap-10 justify-between w-full flex-col">
           <div className="flex flex-col flex-wrap">
             {CHAT_1.map((item) => (
